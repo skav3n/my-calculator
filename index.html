@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<title>Kalkulator</title>
+	
+	<link href='https://fonts.googleapis.com/css?family=VT323' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="style-calc.css" type="text/css" />
+	<script src="calc.js"></script>
+
+</head>
+<body>
+
+	<div id="container">
+		<div class="top">
+			<div class="black-top">
+			
+				<p>CASIO</p>
+				<div class="small-box right-box"></div>
+				<div class="small-box"></div>
+				<div class="small-box"></div>
+				<div class="small-box"></div>
+				
+				<div id="big-screen">
+					<p id="screen-text">0</p>
+				</div>
+				<div id="small-screen">
+					<div id="screen-e"></div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="bot">
+			<div class="panel">
+				
+				<div class="btn grey" id="negative" onclick="plusMinus()">
+					<p>+/-</p>
+				</div>
+				<div class="btn" id="seven" onclick="number(7)">
+					<p>7</p>
+				</div>
+				<div class="btn" id="eight" onclick="number(8)">
+					<p>8</p>
+				</div>
+				<div class="btn" id="nine" onclick="number(9)">
+					<p>9</p>
+				</div>
+				<div class="btn grey" id="percent" onclick="percent()">
+					<p>%</p>
+				</div>
+				<div class="btn grey" id="sqrt" onclick="action('sqrt')">
+					<p>sqrt</p>
+					</div>
+				<div style="clear: both"></div>
+				
+				<div class="btn grey" id="back" onclick="back()">
+					<p>>>></p>
+				</div>
+				<div class="btn" id="four" onclick="number(4)">
+					<p>4</p>
+				</div>
+				<div class="btn" id="five" onclick="number(5)">
+					<p>5</p>
+				</div>
+				<div class="btn" id="six" onclick="number(6)">
+					<p>6</p>
+				</div>
+				<div class="btn grey" id="multi" onclick="action('*')">
+					<p>*</p>
+				</div>
+				<div class="btn grey" id="division" onclick="action('/')">
+					<p>/</p>
+				</div>
+				<div style="clear: both"></div>
+				
+				<div class="btn grey" id="ac" onclick="reset()">
+					<p>AC</p>
+				</div>
+				<div class="btn" id="one" onclick="number(1)">
+					<p>1</p>
+				</div>
+				<div class="btn" id="two" onclick="number(2)">
+					<p>2</p>
+				</div>
+				<div class="btn" id="three" onclick="number(3)">
+					<p>3</p>
+				</div>
+				<div class="btn grey" id="minus" onclick="action('-')">
+					<p>-</p>
+				</div>
+				<div style="clear: both"></div>
+				
+				<div class="btn red" id="c" onclick="location.reload()">
+					<p>C</p>
+				</div>
+				<div class="btn" id="zero" onclick="number(0)">
+					<p>0</p>
+				</div>
+				<div class="btn" id="zero-zero" onclick="number('00')">
+					<p>00</p>
+				</div>
+				<div class="btn" id="dot" onclick="number('.')">
+					<p>.</p>
+				</div>
+				<div class="btn grey" id="plus" onclick="action('+')">
+					<p>+</p>
+				</div>
+				<div class="btn grey" id="equal" onclick="result()">
+					<p>=</p>
+				</div>
+				<div style="clear: both"></div>
+				
+			</div>
+		</div>
+	
+	</div> <!-- /CONTAINER -->
+</body>
+</html>

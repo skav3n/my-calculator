@@ -1,0 +1,143 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+#container {
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F3EFE0;
+	height: 955px;
+	padding-top: 50px;
+}
+.top {
+	background-color: #9c9c9c;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 275px;
+	padding-top: 25px;
+}
+.black-top {
+	background-color: black;
+	width: 780px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 250px;
+}
+.black-top > p {
+	color: white;
+	font-size: 32px;
+	letter-spacing: 5px;
+	line-height: 75px;
+	margin-left: 15px;
+	float: left;
+}
+.black-top > .small-box {
+	width: 32px;
+	height: 32px;
+	background-color: #431B05;
+	border: 1px solid white;
+	margin: 2px;
+	margin-top: 21px;
+	float: right;
+}
+.black-top > .right-box {
+	margin-right: 15px;
+}
+#big-screen {
+	background-color: #7fffd4;
+	width: 710px;
+	height: 125px;
+	float: right;
+	margin-right: 15px;
+}
+#big-screen > #screen-text {
+	font-size: 95px;
+	text-align: right;
+	line-height: 95px;
+	padding: 15px;
+	font-family: 'VT323', sans-serif;
+	letter-spacing: 20px;
+}
+#small-screen {
+	background-color: #7fffd4;
+	width: 40px;
+	height: 125px;
+	float: left;
+	margin-left: 15px;
+}
+#small-screen > #screen-e {
+	width: 40px;
+	height: 85px;
+	padding-top: 40px;
+	font-size: 40px;
+	text-align: center;
+}
+.bot > .panel {
+	background-color: #9c9c9c;
+	width: 780px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 545px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bot: 25px;
+}
+.bot > .panel > .btn {
+	width: 96px;
+	height: 96px;
+	float: left;
+	background-color: black;
+	margin: 15px;
+	border: 2px solid white;
+	color: white;
+	text-align: center;
+	cursor: pointer;
+}
+.bot > .panel > .btn:hover {
+	opacity: 0.8;
+}
+.bot > .panel > #plus {
+	height: 150px;
+	position: relative;
+	top: -104px;
+	padding-top: 50px;
+}
+.bot > .panel > #minus {
+	float: right;
+}
+.bot > .panel > .grey {
+	background-color: #333232;
+}
+.bot > .panel > .red {
+	background-color: #a52a2a;
+}
+.bot > .panel > .btn > p {
+	font-size: 32px;
+	font-weight: bold;
+	line-height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
